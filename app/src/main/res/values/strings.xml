@@ -1,0 +1,13 @@
+<resources>
+
+    <string name="app_name">Bookshelf</string>
+    <string name="find_book">Find book!</string>
+    <string name="kinds">No book selected</string>
+    <string-array name="book_types">
+        <item>Technic</item>
+        <item>Programming</item>
+        <item>Geography</item>
+        <item>School</item>
+    </string-array>
+
+</resources>
