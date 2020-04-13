@@ -9,13 +9,13 @@
     tools:contenxt="com.inwar2006.bookshelf.FindBookActivity">
 
     <Spinner
-        android:id="@+id/types"
+        android:id="@+id/directions"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="40dp"
         android:layout_gravity="center"
         android:layout_margin="16dp"
-        android:entries="@array/book_types"/>
+        android:entries="@array/book_directions"/>
 
     <Button
         android:id="@+id/find_book"
@@ -28,12 +28,12 @@
         android:onClick="onClickFindBook" />
 
     <TextView
-        android:id="@+id/kinds"
+        android:id="@+id/kind"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
         android:layout_margin="16dp"
-        android:text="@string/kinds" />
+        android:text="@string/kind" />
 
 </LinearLayout>
 

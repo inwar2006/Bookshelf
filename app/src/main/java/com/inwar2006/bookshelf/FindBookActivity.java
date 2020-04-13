@@ -15,9 +15,9 @@ public class FindBookActivity extends AppCompatActivity {
     }
 
     public void onClickFindBook(View view){
-        TextView kinds = (TextView) findViewById(R.id.kinds);
-        Spinner type = (Spinner) findViewById(R.id.types);
-        String beerType = String.valueOf(type.getSelectedItem());
-        kinds.setText(beerType);
+        TextView kinds = (TextView) findViewById(R.id.kind);
+        Spinner type = (Spinner) findViewById(R.id.directions);
+        String bookType = String.valueOf(type.getSelectedItem());
+        kinds.setText(bookType);
     }
 }
