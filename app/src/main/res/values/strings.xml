@@ -1,5 +1,4 @@
 <resources>
-
     <string name="app_name">Bookshelf</string>
     <string name="find_book">Find book!</string>
     <string name="kind">No book selected</string>
@@ -9,5 +8,4 @@
         <item>Geography</item>
         <item>School</item>
     </string-array>
-
 </resources>
