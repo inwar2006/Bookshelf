@@ -3,6 +3,7 @@ package com.inwar2006.bookshelf;
 import java.util.List;
 import java.util.ArrayList;
 
+//fill list of books
 public class BookExpert {
     List<String> getTypes (String direction){
         List<String> booktypes = new ArrayList<>();
